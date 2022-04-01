@@ -1,0 +1,101 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    background-color:#EEEEEE;
+}
+
+.header {
+    height: 92px;
+    width: 100%;
+    background-color: #CF2B2B;
+    padding-left: 21px;
+    display: flex;
+    align-items: center;   
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: fixed;    
+    z-index: 1;
+}
+
+.header h1 {
+    font-family: 'Righteous', cursive;
+    color:#FFFFFF;
+    font-size: 44px;
+}
+
+.header p {
+    color:#FFFFFF;
+    font-size: 18px;
+}
+
+.spacing-header {
+    margin-top: 92px;
+}
+
+.spacing {
+    padding-left: 19px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    min-width: 100%;
+}
+
+
+.container p {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 26px;
+    margin-top: 27px;
+}
+
+.food {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.food div {
+    display: flex;
+    width: 100%;
+}
+
+.container button {
+    min-width: 172px;
+    height: 216px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    background: red;
+    box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    margin-right: 10px;
+    margin-top: 17px;
+}
+
+.baseboard {
+    width: 100%;
+    height: 92px;
+    background: blue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.baseboard button {
+    width: 364px;
+    height: 61px;
+    outline: none;
+    border: none;
+    background: #CBCBCB;
+    border-radius: 50px;
+    color:  #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+}
