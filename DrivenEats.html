@@ -26,7 +26,7 @@
             <p>Primeiro, seu prato</p>
             <div class="food">
                 <div>
-                    <button> 
+                    <button onclick="selecionar(this, '.food')"> 
                         <div class="space-between">
                             <img src="frango_yin_yang 1.svg" alt="">
                             <h2>Frango Yin Yang</h2>
@@ -37,7 +37,7 @@
                             </div>
                         </div>
                     </button>   
-                    <button> 
+                    <button  onclick="selecionar(this, '.food')"> 
                         <div class="space-between">
                             <img src="frango_yin_yang 1.svg" alt="">
                             <h2>Frango Yin Yang</h2>
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </button>
-                    <button> 
+                    <button  onclick="selecionar(this, '.food')"> 
                         <div class="space-between">
                             <img src="frango_yin_yang 1.svg" alt="">
                             <h2>Frango Yin Yang</h2>
@@ -65,9 +65,9 @@
 
         <div class="spacing">
             <p>Agora, sua bebida</p>
-            <div class="food">
+            <div class="drink">
                 <div>
-                    <button> 
+                    <button onclick="selecionar(this, '.drink')"> 
                         <div class="space-between">
                             <img src="coquinha_gelada 1.png" alt="">
                             <h2>Coquinha gelada</h2>
@@ -78,7 +78,7 @@
                             </div>
                         </div>
                     </button>
-                    <button> 
+                    <button onclick="selecionar(this, '.drink')"> 
                         <div class="space-between">
                             <img src="coquinha_gelada 1.png" alt="">
                             <h2>Coquinha gelada</h2>
@@ -89,7 +89,7 @@
                             </div>
                         </div>
                     </button>
-                                        <button> 
+                    <button  onclick="selecionar(this, '.drink')"> 
                         <div class="space-between">
                             <img src="coquinha_gelada 1.png" alt="">
                             <h2>Coquinha gelada</h2>
@@ -106,9 +106,9 @@
 
         <div class="spacing">
             <p>Por fim, sua sobremesa</p>
-            <div class="food">
+            <div class="dessert">
                 <div>
-                    <button>
+                    <button  onclick="selecionar(this, '.dessert')">
                         <div class="space-between">
                             <img src="pudim 1.png">
                             <h2>Coquinha gelada</h2>
@@ -119,7 +119,7 @@
                             </div>
                         </div>
                     </button>
-                    <button> 
+                    <button  onclick="selecionar(this, '.dessert')"> 
                         <div class="space-between">
                             <img src="pudim 1.png">
                             <h2>Coquinha gelada</h2>
@@ -130,7 +130,7 @@
                             </div>
                         </div>
                     </button>
-                    <button> 
+                    <button onclick="selecionar(this, '.dessert')"> 
                         <div class="space-between">
                             <img src="pudim 1.png">
                             <h2>Coquinha gelada</h2>
@@ -146,12 +146,18 @@
         </div>
     </div>
 
-    <div class="baseboard">
+    <div class="baseboard ">
+        
         <button> <h6>Selecione os 3 itens</h6>
             <h6>para fechar o pedido </h6></button>
     </div>
+
+    <div class="baseboard-hidden display-none">
+        <button> <h6>Fechar pedido</h6>
+        </button>
+    </div>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-    
+    <script src="script.js"></script>
 </body>
 </html>
