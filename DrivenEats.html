@@ -28,34 +28,66 @@
                 <div>
                     <button onclick="selecionar(this, '.food')"> 
                         <div class="space-between">
-                            <img src="frango_yin_yang 1.svg" alt="">
-                            <h2>Frango Yin Yang</h2>
-                            <h3>Um pouco de batata, um pouco de salada</h3>
-                            <div class="alingcheck">
-                                <h4>R$ 14,90</h4>
-                                <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                            <img src="comidas/xburguere.jpg">
+                            <div class="words"> 
+                                <h2>X-Burguer</h2>
+                                <h3>Hamburguer com 2 carnes, salada, queijo e presunto.</h3>
+                                <div class="alingcheck">
+                                    <h4>R$ 15,00</h4>
+                                    <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                </div>
                             </div>
                         </div>
                     </button>   
                     <button  onclick="selecionar(this, '.food')"> 
                         <div class="space-between">
-                            <img src="frango_yin_yang 1.svg" alt="">
-                            <h2>Frango Yin Yang</h2>
-                            <h3>Um pouco de batata, um pouco de salada</h3>
-                            <div class="alingcheck">
-                                <h4>R$ 14,90</h4>
-                                <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                            <img src="comidas/batata.png">
+                            <div class="words"> 
+                                <h2>Batata Chips</h2>
+                                <h3>Porção de batata chips.</h3>
+                                <div class="alingcheck">
+                                    <h4>R$ 17,00</h4>
+                                    <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                </div>
                             </div>
                         </div>
                     </button>
                     <button  onclick="selecionar(this, '.food')"> 
                         <div class="space-between">
-                            <img src="frango_yin_yang 1.svg" alt="">
-                            <h2>Frango Yin Yang</h2>
-                            <h3>Um pouco de batata, um pouco de salada</h3>
-                            <div class="alingcheck"> 
-                                <h4>R$ 14,90</h4>
-                                <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                            <img src="comidas/batatafrita.jpg">
+                            <div class="words"> 
+                                <h2>Batata Frita</h2>
+                                <h3>Porçao de Batata Frita</h3>
+                                <div class="alingcheck">
+                                    <h4>R$ 8,50</h4>
+                                    <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </button>
+                    <button  onclick="selecionar(this, '.food')"> 
+                        <div class="space-between">
+                            <img src="comidas/frangofrito.jpg">
+                            <div class="words"> 
+                                <h2>Frango</h2>
+                                <h3>Balde de frango frito.</h3>
+                                <div class="alingcheck">
+                                    <h4>R$ 13,00</h4>
+                                    <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                </div>
+                            </div>
+                        </div>
+                    </button>
+                    <button  onclick="selecionar(this, '.food')"> 
+                        <div class="space-between">
+                            <img src="comidas/pizza.png">
+                            <div class="words"> 
+                                <h2>Pizza</h2>
+                                <h3>Pedaço de pizza.</h3>
+                                <div class="alingcheck">
+                                    <h4>R$ 7,00</h4>
+                                    <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                </div>
                             </div>
                         </div>
                     </button>
@@ -153,9 +185,11 @@
     </div>
 
     <div class="baseboard-hidden display-none">
-        <button> <h6>Fechar pedido</h6>
+        <button onclick = "realizarPedido('.dessert', '.drink', '.food')">  <h6>Fechar pedido</h6>
         </button>
     </div>
+
+
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <script src="script.js"></script>
