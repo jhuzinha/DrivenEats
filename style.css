@@ -73,7 +73,7 @@ body {
     width: 172px;
     height: auto;
     outline: none;
-    border: none;
+    border: 5px solid white;
     box-sizing: border-box;
     background: #FFFFFF;
     box-shadow: 0px 0px 10px -4px rgba(0, 0, 0, 0.25);
@@ -124,7 +124,10 @@ body {
 .space-between img {
     border-radius: 4px;
     margin-bottom: 8px;
-    height: 87px;
+    min-height: 87px;
+    max-height: 87px;
+    min-width: auto;
+    max-width: 87px;
     object-fit: cover;
  
 }

@@ -12,7 +12,7 @@ function finalizar_pedido (tipo1, tipo2, tipo3) {
     const possuiClasse2  = document.querySelector(`${tipo2} .select`);
     const possuiClasse3  = document.querySelector(`${tipo3} .select`);
     if (possuiClasse1 && possuiClasse2 && possuiClasse3) {
-        retirar = document.querySelector('.baseboard-hidden')
+        let retirar = document.querySelector('.baseboard-hidden')
         retirar.classList.remove('display-none')
     }
 }
@@ -20,8 +20,9 @@ function finalizar_pedido (tipo1, tipo2, tipo3) {
 function realizarPedido(tipo1, tipo2, tipo3) {
     let texto;
     let total;
-
     
+    const nome = prompt("Qual o seu nome?")
+    const endereço = prompt("Qual o seu endereço?")
     const sobremesa = document.querySelector(`${tipo1} .select h2`).innerHTML;
     const bebida  = document.querySelector(`${tipo2} .select h2`).innerHTML;
     const prato_principal = document.querySelector(`${tipo3} .select h2`).innerHTML;
@@ -29,13 +30,17 @@ function realizarPedido(tipo1, tipo2, tipo3) {
     const valor_bebida = document.querySelector(`${tipo2} .select h4`).innerHTML.slice(3).replace(",", ".");
     const valor_prato = document.querySelector(`${tipo3} .select h4`).innerHTML.slice(3).replace(",", ".");
 
+
     total =  Number(valor_prato) + Number(valor_bebida) + Number(valor_sobremesa);
     total = total.toFixed(2)
     texto = encodeURIComponent(`Olá, gostaria de fazer o pedido:
 - Prato: ${prato_principal}
 - Bebida: ${bebida}
 - Sobremesa: ${sobremesa}
-Total: R$ ${total}`) 
+Total: R$ ${total}
+
+Nome: ${nome}
+Endereço: ${endereço}`) 
     
     window.open("https://wa.me/55061998234001?text=" + texto)  
 }
