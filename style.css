@@ -19,7 +19,7 @@ body {
     position: fixed; 
     top: 0;
     left: 0;   
-    z-index: 1;
+    z-index: 2;
 }
 
 .header h1 {
@@ -124,7 +124,6 @@ body {
 .space-between img {
     border-radius: 4px;
     margin-bottom: 8px;
-    width: 144px;
     height: 87px;
     object-fit: cover;
  
@@ -194,3 +193,4 @@ ion-icon {
 .border {
     border: 1px solid white;
 }
+

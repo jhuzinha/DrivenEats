@@ -14,6 +14,8 @@
 
 
 <body>
+    
+
     <div class="header"> 
         <div>
             <h1> DrivenEats </h1> 
@@ -22,173 +24,236 @@
     </div>   
 
     <div class="container">
-        <div class="spacing spacing-header">
-            <p>Primeiro, seu prato</p>
-            <div class="food">
-                <div>
-                    <button onclick="selecionar(this, '.food')"> 
-                        <div class="space-between">
-                            <img src="comidas/xburguere.jpg">
-                            <div class="words"> 
-                                <h2>X-Burguer</h2>
-                                <h3>Hamburguer com 2 carnes, salada, queijo e presunto.</h3>
-                                <div class="alingcheck">
-                                    <h4>R$ 15,00</h4>
-                                    <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+            <div class="spacing spacing-header">
+                <p>Primeiro, seu prato</p>
+                <div class="food">
+                    <div>
+                        <button onclick="selecionar(this, '.food')"> 
+                            <div class="space-between">
+                                <img src="comidas/xburguere.jpg">
+                                <div class="words"> 
+                                    <h2>X-Burguer</h2>
+                                    <h3>Hamburguer com 2 carnes, salada, queijo e presunto.</h3>
+                                    <div class="alingcheck">
+                                        <h4>R$ 15,00</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </button>   
-                    <button  onclick="selecionar(this, '.food')"> 
-                        <div class="space-between">
-                            <img src="comidas/batata.png">
-                            <div class="words"> 
-                                <h2>Batata Chips</h2>
-                                <h3>Porção de batata chips.</h3>
-                                <div class="alingcheck">
-                                    <h4>R$ 17,00</h4>
-                                    <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                        </button>   
+                        <button  onclick="selecionar(this, '.food')"> 
+                            <div class="space-between">
+                                <img src="comidas/batata.png">
+                                <div class="words"> 
+                                    <h2>Batata Chips</h2>
+                                    <h3>Porção de batata chips.</h3>
+                                    <div class="alingcheck">
+                                        <h4>R$ 17,00</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </button>
-                    <button  onclick="selecionar(this, '.food')"> 
-                        <div class="space-between">
-                            <img src="comidas/batatafrita.jpg">
-                            <div class="words"> 
-                                <h2>Batata Frita</h2>
-                                <h3>Porçao de Batata Frita</h3>
-                                <div class="alingcheck">
-                                    <h4>R$ 8,50</h4>
-                                    <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                        </button>
+                        <button  onclick="selecionar(this, '.food')"> 
+                            <div class="space-between">
+                                <img src="comidas/batatafrita.jpg">
+                                <div class="words"> 
+                                    <h2>Batata Frita</h2>
+                                    <h3>Porçao de Batata Frita</h3>
+                                    <div class="alingcheck">
+                                        <h4>R$ 8,50</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </button>
-                    <button  onclick="selecionar(this, '.food')"> 
-                        <div class="space-between">
-                            <img src="comidas/frangofrito.jpg">
-                            <div class="words"> 
-                                <h2>Frango</h2>
-                                <h3>Balde de frango frito.</h3>
-                                <div class="alingcheck">
-                                    <h4>R$ 13,00</h4>
-                                    <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                        </button>
+                        <button  onclick="selecionar(this, '.food')"> 
+                            <div class="space-between">
+                                <img src="comidas/frangofrito.jpg">
+                                <div class="words"> 
+                                    <h2>Frango</h2>
+                                    <h3>Balde de frango frito.</h3>
+                                    <div class="alingcheck">
+                                        <h4>R$ 13,00</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </button>
-                    <button  onclick="selecionar(this, '.food')"> 
-                        <div class="space-between">
-                            <img src="comidas/pizza.png">
-                            <div class="words"> 
-                                <h2>Pizza</h2>
-                                <h3>Pedaço de pizza.</h3>
-                                <div class="alingcheck">
-                                    <h4>R$ 7,00</h4>
-                                    <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                        </button>
+                        <button  onclick="selecionar(this, '.food')"> 
+                            <div class="space-between">
+                                <img src="comidas/pizza.png">
+                                <div class="words"> 
+                                    <h2>Pizza</h2>
+                                    <h3>Pedaço de pizza.</h3>
+                                    <div class="alingcheck">
+                                        <h4>R$ 7,00</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    </button>
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="spacing">
-            <p>Agora, sua bebida</p>
-            <div class="drink">
-                <div>
-                    <button onclick="selecionar(this, '.drink')"> 
-                        <div class="space-between">
-                            <img src="coquinha_gelada 1.png" alt="">
-                            <h2>Coquinha gelada</h2>
-                            <h3>Lata 350ml</h3>
-                            <div class="alingcheck"> 
-                                <h4>R$ 4,90</h4>
-                                <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+            <div class="spacing">
+                <p>Agora, sua bebida</p>
+                <div class="drink">
+                    <div>
+                        <button onclick="selecionar(this, '.drink')"> 
+                            <div class="space-between">
+                                <img src="bebidas/suco.png" alt="">
+                                <div class="words">
+                                    <h2>Suco</h2>
+                                    <h3>Suco de goiaba</h3>
+                                    <div class="alingcheck"> 
+                                        <h4>R$ 2,90</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </button>
-                    <button onclick="selecionar(this, '.drink')"> 
-                        <div class="space-between">
-                            <img src="coquinha_gelada 1.png" alt="">
-                            <h2>Coquinha gelada</h2>
-                            <h3>Lata 350ml</h3>
-                            <div class="alingcheck"> 
-                                <h4>R$ 4,90</h4>
-                                <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                        </button>
+                        <button onclick="selecionar(this, '.drink')"> 
+                            <div class="space-between">
+                                <img src="bebidas/sucolimao.webp">
+                                <div class="words">
+                                    <h2>Suco</h2>
+                                    <h3>Suco de limão (jarra)</h3>
+                                    <div class="alingcheck"> 
+                                        <h4>R$ 8,90</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </button>
-                    <button  onclick="selecionar(this, '.drink')"> 
-                        <div class="space-between">
-                            <img src="coquinha_gelada 1.png" alt="">
-                            <h2>Coquinha gelada</h2>
-                            <h3>Lata 350ml</h3>
-                            <div class="alingcheck"> 
-                                <h4>R$ 4,90</h4>
-                                <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                        </button>
+                        <button onclick="selecionar(this, '.drink')"> 
+                            <div class="space-between">
+                                <img src="bebidas/refri2l.jpg" alt="">
+                                <div class="words">
+                                    <h2>Coquinha gelada</h2>
+                                    <h3>2litros</h3>
+                                    <div class="alingcheck"> 
+                                        <h4>R$ 9,00</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </button>
+                        </button>
+                        <button onclick="selecionar(this, '.drink')"> 
+                            <div class="space-between">
+                                <img src="bebidas/agua.jpg">
+                                <div class="words">
+                                    <h2>Agua</h2>
+                                    <h3>Garrafa 500ml</h3>
+                                    <div class="alingcheck"> 
+                                        <h4>R$ 3,00</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button onclick="selecionar(this, '.drink')"> 
+                            <div class="space-between">
+                                <img src="bebidas/cerveja.jpg" alt="">
+                                <div class="words">
+                                    <h2>Cervejinha gelada</h2>
+                                    <h3>Long neck</h3>
+                                    <div class="alingcheck"> 
+                                        <h4>R$ 7,00</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div class="spacing">
-            <p>Por fim, sua sobremesa</p>
-            <div class="dessert">
-                <div>
-                    <button  onclick="selecionar(this, '.dessert')">
-                        <div class="space-between">
-                            <img src="pudim 1.png">
-                            <h2>Coquinha gelada</h2>
-                            <h3>Lata 350ml</h3>
-                            <div class="alingcheck"> 
-                                <h4>R$ 7,90</h4>
-                                <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+            <div class="spacing">
+                <p>Por fim, sua sobremesa</p>
+                <div class="dessert">
+                    <div>
+                        <button  onclick="selecionar(this, '.dessert')">
+                            <div class="space-between">
+                                <img src="sobremesa/pudim.jpg">
+                                <div class="words">
+                                    <h2>Pudim</h2>
+                                    <h3>pudimzinho</h3>
+                                    <div class="alingcheck"> 
+                                        <h4>R$ 7,50</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </button>
-                    <button  onclick="selecionar(this, '.dessert')"> 
-                        <div class="space-between">
-                            <img src="pudim 1.png">
-                            <h2>Coquinha gelada</h2>
-                            <h3>Lata 350ml</h3>
-                            <div class="alingcheck"> 
-                                <h4>R$ 7,90</h4>
-                                <ion-icon  class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                        </button>
+                        <button  onclick="selecionar(this, '.dessert')">
+                            <div class="space-between">
+                                <img src="sobremesa/cupcake.png">
+                                <div class="words">
+                                    <h2>Cupcake</h2>
+                                    <h3>somente cupcake, diversos sabores (cada)</h3>
+                                    <div class="alingcheck"> 
+                                        <h4>R$ 5,00</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </button>
-                    <button onclick="selecionar(this, '.dessert')"> 
-                        <div class="space-between">
-                            <img src="pudim 1.png">
-                            <h2>Coquinha gelada</h2>
-                            <h3>Lata 350ml</h3>
-                            <div class="alingcheck"> 
-                                <h4>R$ 7,90</h4>
-                                <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                        </button>
+                        <button  onclick="selecionar(this, '.dessert')">
+                            <div class="space-between">
+                                <img src="sobremesa/cookies.jpg">
+                                <div class="words">
+                                    <h2>Cookies</h2>
+                                    <h3>Chocolate </h3>
+                                    <div class="alingcheck"> 
+                                        <h4>R$ 8,90</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </button>
+                        </button>
+                        <button  onclick="selecionar(this, '.dessert')">
+                            <div class="space-between">
+                                <img src="sobremesa/dunnuuts.jpg"">
+                                <div class="words">
+                                    <h2>Donnuts</h2>
+                                    <h3>Igual o dos Simpsons</h3>
+                                    <div class="alingcheck"> 
+                                        <h4>R$ 7,90</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                        <button  onclick="selecionar(this, '.dessert')">
+                            <div class="space-between">
+                                <img src="sobremesa/sorvete.png">
+                                <div class="words">
+                                    <h2>Sorvete</h2>
+                                    <h3>2 bolas</h3>
+                                    <div class="alingcheck"> 
+                                        <h4>R$ 3,90</h4>
+                                        <ion-icon class = "display-none" name="checkmark-circle-sharp"></ion-icon>
+                                    </div>
+                                </div>
+                            </div>
+                        </button>
+                    </div>
                 </div>
             </div>
-        </div>
     </div>
 
     <div class="baseboard ">
-        
-        <button> <h6>Selecione os 3 itens</h6>
-            <h6>para fechar o pedido </h6></button>
+            
+            <button> <h6>Selecione os 3 itens</h6>
+                <h6>para fechar o pedido </h6></button>
     </div>
 
     <div class="baseboard-hidden display-none">
-        <button onclick = "realizarPedido('.dessert', '.drink', '.food')">  <h6>Fechar pedido</h6>
-        </button>
+            <button onclick = "realizarPedido('.dessert', '.drink', '.food')">  <h6>Fechar pedido</h6>
+            </button>
     </div>
-
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
